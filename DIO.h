@@ -46,7 +46,7 @@
 #define DIO_LOW 0
 #define DIO_HIGH 0xFF
 extern void DIO_PortInit(uint32 , uint32 , uint32 );
-extern void DIO_PortRead(uint32 , uint32,puint32 );
+extern void DIO_PortRead(uint32 , uint32,puint32);
 extern void DIO_PortWrite(uint32, uint32, uint32);
 extern void DIO_PortDirection(uint32 , uint32, uint32);
 
